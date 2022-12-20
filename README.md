@@ -177,6 +177,11 @@ cd -
 | Average Val | 0.9311 | 0.9353 | 0.9323 | 0.9387 | 0.9381 | 0.9351 |  
 | Average Test | 0.8392 | 0.8386 | 0.8413 | 0.8397 | 0.8406 | 0.8399 |
 
+## 参考
+
+- https://ogb.stanford.edu/docs/nodeprop/#ogbn-products
+- https://ogb.stanford.edu/docs/leader_nodeprop/#ogbn-products
+
 ## 总结
 
 本实验使用Ogbn-products数据集, 使用了XMC+XRT-Transformer架构的GIANT方法. 巧妙地解决了传统GNN模型忽略节点间潜在的关联的问题. 同时, 本实验还结合了SAGN+SLE方法, 显著增加了测试集的准确率. 最后该方案使得商品关联的判断的训练准确率达到了93.5%, 测试准确率接近了84%. 和传统GNN和单纯的GIANT相比都有很大的突破.
